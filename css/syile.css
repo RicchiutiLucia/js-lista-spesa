@@ -3,3 +3,84 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(113, 140, 213);
+}
+.container{
+    background-color: white;
+    border: dashed 2px black;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+
+}
+h1{
+    font-size: 60px;
+    animation-name: colore;
+    animation-duration: 6s;
+}
+@keyframes colore {
+    0%{
+        color: red;
+    }
+
+    20%{
+        color: orange;
+    }
+
+    40%{
+        color: yellow;
+    }
+
+    60%{
+        color: green;
+
+    }
+
+    80%{
+        color: purple;
+    }
+
+    100%{
+        color: red;
+    }
+}
+#lista li{
+    list-style: none;
+    padding: 5px;
+    font-size: 30px;
+    animation-name: colore2;
+    animation-duration: 6s;
+}
+@keyframes colore2 {
+    0%{
+        color: rgb(193, 58, 58);;
+    }
+
+    20%{
+        color: rgba(143, 99, 17, 0.999);
+    }
+
+    40%{
+        color: rgb(179, 179, 97);
+    }
+
+    60%{
+        color: rgb(3, 44, 3);
+
+    }
+
+    80%{
+        color: rgb(195, 40, 195);
+    }
+
+    100%{
+        color: rgb(193, 58, 58);
+    }
+
+}
+
+
+
